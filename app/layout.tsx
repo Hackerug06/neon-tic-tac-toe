@@ -1,9 +1,10 @@
 import "./globals.css"
 import { Inter } from "next/font/google"
+import type { Metadata } from "next"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Neon Tic-Tac-Toe",
   description: "A neon-themed Tic-Tac-Toe game",
 }
@@ -20,4 +21,3 @@ export default function RootLayout({
   )
 }
 
-    
